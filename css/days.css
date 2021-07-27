@@ -1,0 +1,91 @@
+*{font-family: 'Poor Story', cursive;}
+
+body{background-color: #transparent;}
+a{text-decoration: none;
+  color:black;}
+
+#side_left a:hover{color:#D2691E;
+  background-color: 	#FFD700;}
+
+#date a:hover{color:#D2691E;
+  background-color: white;
+  }
+
+#side_right_2 a:hover{color:#D2691E;
+  background-color: white}
+
+#main{width:100%;
+      height:900px;
+      margin:0 auto;
+      font-size: 40px;
+      color:#fff;
+      text-align: center;}
+#header{width: 100%;
+        height:100px;
+        line-height: 100px;
+        background-color: #transparent;
+        font-weight: bold;
+        text-shadow: 2px 4px 2px lightgray;
+        font-size:80px;
+        color:black;}
+#side_left{float:left;
+            width: 310px;
+            line-height: 250%;
+            height: 800px;
+            background-color: #transparent;
+            font-size: 35px;
+            color:black;
+            text-align: left;
+            margin-top: 40px;}
+#contents{float:left;
+          width:600px;
+          line-height: 20px;
+          height: 800px;
+          background-color: #transparent;
+          font-size: 14px;
+          text-align: left;
+          color:black;
+          margin-top: 40px;
+          margin-left: 10px;
+          margin-right: 10px;}
+#side_right{float:left;
+            width:400px;
+            line-height: 23px;
+            height:400px;
+            background-color: #transparent;
+            font-size: 17px;
+            text-align: left;
+            color:black;
+            margin-top: 40px;}
+#side_right_2{float:left;
+              width: 400px;
+              line-height: 25px;
+              height:400px;
+              background-color: #transparent;
+              font-size: 18px;
+              text-align: left;
+              color:black;
+              }
+#footer{clear: both;
+        width:100%;
+        height: 80px;
+        line-height: 100px;
+        background-color: #transparent;
+        font-size: 17px;
+        color: black;
+        text-align: center;}
+#date{
+      font-size: 40px;
+      line-height: 65px;
+      text-align: right;
+}
+#thu{
+      font-size: 32px;
+      line-height: 45px;
+      text-align: right;
+}
+@media(max-width:700px){
+  #A {
+    display:none;
+  }
+}
